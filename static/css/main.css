@@ -229,6 +229,7 @@ a, a:visited, a:link {
   font-weight: bold;
   background: #101510;
   border-radius: 3px;
+  line-height: normal;
 }
 
 .pill label {
@@ -266,7 +267,7 @@ a, a:visited, a:link {
 }
 
 .status {
-  color: #C1C9BF;
+  color: #F4FCF1;
   font-size: 100px;
   white-space: normal;
 }
