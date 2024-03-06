@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+/*@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 @font-face {
   font-family: 'nsicons';
@@ -93,9 +94,9 @@ html, body {
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
-  background: #000;
-  color: #bdbdbd;
+  font-family: 'Poppins', sans-serif;
+  background: #101510;
+  color: #DFE4DC;
 }
 
 .container {
@@ -115,30 +116,30 @@ button {
 }
 
 .ui-button {
-  background-color: grey;
+  background-color: #C1C9BF;
   border: 1px solid white;
   padding: 2px;
 }
 
 a, a:visited, a:link {
-  color: #2196f3;
+  color: #A2CEDA;
   text-decoration: none;
 }
 
 #container.announcing .customTitle {
-  color: orange;
+  color: #FF994B;
 }
 
 #container.alarming.urgent .customTitle {
-  color: red;
+  color: #f37367;
 }
 
 #container.alarming.warning .customTitle {
-  color: yellow;
+  color: #fcb242;
 }
 
 .primary {
-  font-family: 'Ubuntu', Verdana, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', Verdana, Helvetica, Arial, sans-serif;
   vertical-align: middle;
   clear: both;
   white-space: nowrap;
@@ -152,15 +153,15 @@ a, a:visited, a:link {
 }
 
 .urgent .bgButton {
-  color: red;
+  color: #f37367;
 }
 
 .warning .bgButton {
-  color: yellow;
+  color: #fcb242;
 }
 
 .inrange .bgButton {
-  color: #4cff00;
+  color: #04a843;
 }
 
 .bgStatus .bgSpan {
@@ -211,8 +212,8 @@ a, a:visited, a:link {
 .pill {
   white-space: nowrap;
   border-radius: 5px;
-  border: 2px solid #808080;
-  background: #808080;
+  border: 2px solid #C1C9BF;
+  background: #C1C9BF;
   display: inline-block;
   margin-bottom: 4px;
   padding: 2px 0;
@@ -226,34 +227,34 @@ a, a:visited, a:link {
 .pill em {
   font-style: normal;
   font-weight: bold;
-  background: #000;
+  background: #101510;
   border-radius: 3px;
 }
 
 .pill label {
-  color: #000;
+  color: #101510;
 }
 
 .container .pill.warn em {
-  color: yellow;
+  color: #fcb242;
 }
 
 .container .pill.urgent em {
-  color: red;
+  color: #f37367;
 }
 
 .alarming-timeago .timeago.pill.warn {
-  border-color: yellow;
+  border-color: #fcb242;
 }
 .alarming-timeago .timeago.pill.warn label {
-  background: yellow;
+  background: #fcb242;
 }
 
 .alarming-timeago .timeago.pill.urgent {
-  border-color: red;
+  border-color: #f37367;
 }
 .alarming-timeago .timeago.pill.urgent label {
-  background: red;
+  background: #f37367;
 }
 
 .bgStatus.current .currentBG {
@@ -265,7 +266,7 @@ a, a:visited, a:link {
 }
 
 .status {
-  color: #808080;
+  color: #C1C9BF;
   font-size: 100px;
   white-space: normal;
 }
@@ -284,13 +285,13 @@ a, a:visited, a:link {
 }
 
 .statusPills .pill {
-  background: #808080;
-  border-color: #808080;
+  background: #C1C9BF;
+  border-color: #C1C9BF;
   margin-right: 5px;
 }
 
 .statusPills .pill em {
-  color: #bdbdbd;
+  color: #DFE4DC;
 }
 
 #chartContainer {
@@ -316,7 +317,7 @@ a, a:visited, a:link {
 #silenceBtn, #viewMenu {
   z-index: 99;
   border-radius: 5px;
-  border: 2px solid #bdbdbd;
+  border: 2px solid #DFE4DC;
 }
 
 #viewMenu {
@@ -336,7 +337,7 @@ a, a:visited, a:link {
 
 .bgButton {
   margin: 10px;
-  border: 2px solid #000;
+  border: 2px solid #101510;
   border-radius: 5px;
   display: inline-block;
   width: 360px;
@@ -349,7 +350,7 @@ a, a:visited, a:link {
 .pill.rawbg {
   display: inline-block;
   border-radius: 2px;
-  border: 1px solid #808080;
+  border: 1px solid #C1C9BF;
   padding: 0;
 }
 
@@ -369,21 +370,21 @@ a, a:visited, a:link {
 }
 
 .alarming .bgButton {
-  border-color: #bdbdbd;
-  color: #000;
+  border-color: #DFE4DC;
+  color: #101510;
   box-shadow: 2px 2px 0 #ddd;
 }
 
 .alarming.urgent .bgButton {
-  background-color: red;
+  background-color: #f37367;
 }
 
 .alarming.warning .bgButton {
-  background-color: yellow;
+  background-color: #fcb242;
 }
 
 .alarming .bgButton:active {
-  border: 2px solid #bdbdbd;
+  border: 2px solid #DFE4DC;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -425,7 +426,7 @@ a, a:visited, a:link {
   list-style: none;
   margin: 4px;
   padding: 0;
-  color: #808080;
+  color: #C1C9BF;
   width: 40%;
   text-align: center;
 }
@@ -435,14 +436,14 @@ a, a:visited, a:link {
   font-size: 18px;
   white-space: nowrap;
   border-radius: 5px;
-  border: 2px solid #000;
+  border: 2px solid #101510;
   cursor: pointer;
 }
 
 .focus-range .selected {
-  border-color: #808080;
-  color: #000;
-  background: #808080;
+  border-color: #C1C9BF;
+  color: #101510;
+  background: #C1C9BF;
 }
 
 .pill.hidden {
@@ -464,11 +465,11 @@ a, a:visited, a:link {
 
 .authentication-status {
   padding: 10px;
-  border-top: 1px solid #bdbdbd;
+  border-top: 1px solid #DFE4DC;
 }
 
 .authentication-status a {
-  color: #2196f3;
+  color: #A2CEDA;
   text-decoration: underline;
 }
 
